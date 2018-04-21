@@ -4,7 +4,7 @@ CC = g++
 
 COMPILER_FLAGS = -Wall -g -std=c++11
 
-LINKER_FLAGS = -lSDL2
+LINKER_FLAGS = -lSDL2 -lSDL2_image
 
 OBJ_NAME = runner
 
